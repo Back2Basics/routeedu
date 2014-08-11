@@ -1,0 +1,89 @@
+{% extends "gr_base.html" %}
+{% block header_title_lead %}Glassroom helps fill in the gaps{% endblock %}
+{% block content %}
+<div class="row-fluid">
+	<div class="span3">
+      	<form class="form-horizontal">
+      		<div class="control-group">
+      			<a href="#Name"><button class="btn control-label">Name</button></a>#i18nme
+	      		<a href="#Prerequisites"><button class="btn control-label">Prerequisites</button></a>#i18nme
+    	  			<a href="#Extras"><button class="btn control-label">Extras</button></a>#i18nme
+    	  		</div>
+      	</form>
+	</div>
+	<div class="span9">
+    <div class="hero-unit home_bp container-fluid">
+        <h1>
+			Put in the content
+        </h1>
+        <p>
+            {% trans %}Fill your Concept with Content{% endtrans %}
+        </p>
+    </div>
+    <form id="form_teach_concept" action="{{ url|safe }}" method="post" class="well form-horizontal">
+        <fieldset>
+            <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+<div class="tabbable"> <!-- Only required for left/right tabs -->
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+    <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab1">
+      <p>I'm in Section 1.</p>
+    </div>
+    <div class="tab-pane" id="tab2">
+      <p>Howdy, I'm in Section 2.</p>
+    </div>
+  </div>
+</div>
+         	<a class="btn btn-success" href="#">Tag<i class="icon-tag icon-white"></i><button class="close" font-color="white" data-dismiss="alert">×</button></a>
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary">{% trans %}Add Content Next{% endtrans %}</button>
+				
+            </div>
+        </fieldset>
+    </form>
+	</div>
+{% endblock %}
+
+{% block mediaJS %}
+    <script type="text/javascript">
+        $().ready(function() {
+            $("#form_login_user").validate({
+                submitHandler: function(form) {
+                    form.submit();
+                },
+                errorPlacement: function(error, element) {
+                    element.parent().parent().addClass("error");
+                    error.addClass("help-inline").appendTo( element.parent() );
+                }
+            });
+
+            $("#form_register").validate({
+                submitHandler: function(form) {
+                    form.submit();
+                },
+                rules: {
+                    password: 'required',
+                    c_password: {
+                        required: true,
+                        equalTo: '#password'
+                    }
+                },
+                errorPlacement: function(error, element) {
+                    element.parent().parent().addClass("error");
+                    error.addClass("help-inline").appendTo( element.parent() );
+                }
+            });
+            
+            $("#password").passStrength({
+                shortPassText: '{% trans %}Short Password{% endtrans %}',
+                badPassText: '{% trans %}Insecure Password{% endtrans %}',
+                goodPassText: '{% trans %}Good Password{% endtrans %}',
+                strongPassText: '{% trans %}Secure Password{% endtrans %}'
+            });
+        });
+    </script>
+{% endblock %}
+

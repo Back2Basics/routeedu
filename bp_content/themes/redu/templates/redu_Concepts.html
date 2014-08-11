@@ -1,0 +1,14 @@
+{% extends "gr_base.html" %}
+{% block navitems %}
+<li>
+	<form  id="goal-search" action="{{ uri_for("search") }}" method="post" class="navbar-search pull-left">
+		<input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+		{{ macros.field( form.search, label='', placeholder=_('Goal Search'), class='input-xlarge focused search-query', type='search') }}
+	</form>
+</li><li class="divider-vertical"></li>
+{% endblock %}
+
+
+{% block header_title_lead %}Glassroom helps fill in the gaps{% endblock %}
+{% block content %}
+{% endblock  %}

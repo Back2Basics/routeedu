@@ -1,0 +1,34 @@
+{% extends "gr_base.html" %}
+{% block subnavbar %}{% endblock %}
+{% block header_title_lead %}Upload a video{% endblock %}
+
+{% block content %}
+
+    <form id="form_upload_vid" action="{{ url|safe }}" method="post" class="well form-horizontal">
+        <fieldset>
+            <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+            {{ macros.field(form.url, label=_("New Video"), placeholder=_("Enter a URL"), class="input-xlarge focused required URL", type="URL") }}
+         
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary">{% trans %}Submit the Video{% endtrans %}</button>
+            </div>
+        </fieldset>
+    </form>
+
+{% endblock %}
+
+{% block mediaJS %}
+    <script type="text/javascript">
+        $().ready(function() {
+            $("#form_upload_vid").validate({
+                submitHandler: function(form) {
+                    form.submit();
+                },
+                errorPlacement: function(error, element) {
+                    element.parent().parent().addClass("error");
+                    error.addClass("help-inline").appendTo( element.parent() );
+                }
+            });
+        });
+    </script>
+{% endblock %}

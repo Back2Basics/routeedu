@@ -1,0 +1,81 @@
+{% extends "gr_base.html" %}
+{% block header_title_lead %}Glassroom helps fill in the gaps{% endblock %}
+{% block content %}
+<div class="row-fluid">
+	<div class="span3">
+      	<form class="form-horizontal">
+      		<div class="control-group">
+      			<a href="#Name"><button class="btn control-label">Name </button></a>#i18nme
+	      		<a href="#Prerequisites"><button class="btn control-label">Prerequisites </button></a>#i18nme
+    	  			<a href="#Extras"><button class="btn control-label">Extras </button></a>#i18nme
+    	  		</div>
+      	</form>
+	</div>
+	<div class="span9">
+    <div class="hero-unit home_bp container-fluid">
+        <h1>
+			Teach a Concept
+        </h1>
+        <p>
+            {% trans %}Type in your concept idea with some information about it{% endtrans %}
+        </p>
+    </div>
+    <form id="form_teach_concept" action="{{ url|safe }}" method="post" class="well form-horizontal">
+        <fieldset>
+            <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+            <a name="name"></a>{{ macros.field(form.title, label=_("New Concept Title"), placeholder=_("Enter a title"), class="input-xlarge focused required", type="text") }}
+         	{{ macros.field(form.description, label=_("Describe this concept"), placeholder=_("Enter a description"), class="input-xlarge focused required ", type="text", rows="3") }}
+         	<a name="Prerequisite"></a>{{ macros.field(form.Prerequisite_title, label=_("Add some prerequisite concept titles"), placeholder=_("Tag this info"), class="input-xlarge focused", type="text") }}
+         	{{ macros.field(form.Prerequisite_title, label=_("How well do they need to know this?"), placeholder=_("Press enter after each"), class="input-xlarge focused", type="text") }}
+         	{{ macros.field(form.Prerequisite_title_optional, label=_("Optional Prerequisite Title"), placeholder=_("Concepts that might be helpful"), class="input-xlarge focused", type="text") }}
+         	<a name="Extras"></a>{{ macros.field(form.language, label=_("Other language Information"), placeholder=_("info"), class="input-xlarge focused", type="text") }}
+         	<a class="btn btn-success" href="#">Tag<i class="icon-tag icon-white"></i><button class="close" font-color="white" data-dismiss="alert">×</button></a>
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary">{% trans %}Add Content Next{% endtrans %}</button>
+				
+            </div>
+        </fieldset>
+    </form>
+	</div>
+{% endblock %}
+
+{% block mediaJS %}
+    <script type="text/javascript">
+        $().ready(function() {
+            $("#form_login_user").validate({
+                submitHandler: function(form) {
+                    form.submit();
+                },
+                errorPlacement: function(error, element) {
+                    element.parent().parent().addClass("error");
+                    error.addClass("help-inline").appendTo( element.parent() );
+                }
+            });
+
+            $("#form_register").validate({
+                submitHandler: function(form) {
+                    form.submit();
+                },
+                rules: {
+                    password: 'required',
+                    c_password: {
+                        required: true,
+                        equalTo: '#password'
+                    }
+                },
+                errorPlacement: function(error, element) {
+                    element.parent().parent().addClass("error");
+                    error.addClass("help-inline").appendTo( element.parent() );
+                }
+            });
+            
+            $("#password").passStrength({
+                shortPassText: '{% trans %}Short Password{% endtrans %}',
+                badPassText: '{% trans %}Insecure Password{% endtrans %}',
+                goodPassText: '{% trans %}Good Password{% endtrans %}',
+                strongPassText: '{% trans %}Secure Password{% endtrans %}'
+            });
+        });
+    </script>
+{% endblock %}
+
