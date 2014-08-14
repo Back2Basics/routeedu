@@ -11,6 +11,7 @@ secure_scheme = 'https'
 
 _routes = [
     RedirectRoute('/', handlers.IntroHandler, name='intro', strict_slash=True),
+    RedirectRoute('/more', handlers.MoreHandler, name='more', strict_slash=True),
     RedirectRoute('/search', handlers.GoalSearchHandler, name='search', strict_slash=True),
 
 

@@ -11,7 +11,7 @@
     <meta http-equiv="Content-Language" content="en">
     
     
-    <title>gae-boilerplate/glyphicons-halflings-regular.woff at master · coto/gae-boilerplate</title>
+    <title>gae-boilerplate/social-login-icons.png at master · coto/gae-boilerplate</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
@@ -32,7 +32,7 @@
     <meta name="selected-link" value="repo_source" data-pjax-transient>
       <meta name="google-analytics" content="UA-3769691-2">
 
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="48B28AAA:0876:2D2C674:53E9B709" name="octolytics-dimension-request_id" /><meta content="830212" name="octolytics-actor-id" /><meta content="Back2Basics" name="octolytics-actor-login" /><meta content="ff11ecc22210c992328c05fcd9b89e58d28b874d4928e01c1550f0e3943b280f" name="octolytics-actor-hash" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="48B28AAA:0875:92962CF:53E9B53A" name="octolytics-dimension-request_id" /><meta content="830212" name="octolytics-actor-id" /><meta content="Back2Basics" name="octolytics-actor-login" /><meta content="ff11ecc22210c992328c05fcd9b89e58d28b874d4928e01c1550f0e3943b280f" name="octolytics-actor-hash" />
     
 
     
@@ -41,7 +41,7 @@
 
 
     <meta content="authenticity_token" name="csrf-param" />
-<meta content="GL2dUPZNxtF+Jc53ev7sILk6YKYfj8mHslj7Ejfz/Edco6pStya3CZRuzMqvepy9q9ENjCxbd57X63rFjR+Mew==" name="csrf-token" />
+<meta content="SxppyQwSVsavouzgXBoY6TF1g7roh4R0H7j9j71Su9wH+6Q9GbYgNEw18S0g3svcDaXYVdRh621zdN45Q6r4XQ==" name="csrf-token" />
 
     <link href="https://assets-cdn.github.com/assets/github-dbe5460e5988d6cc4137bf62a81dbf2491656555.css" media="all" rel="stylesheet" type="text/css" />
     <link href="https://assets-cdn.github.com/assets/github2-6fb29a46b403894c283c4e2d845a1b62550a70db.css" media="all" rel="stylesheet" type="text/css" />
@@ -165,7 +165,7 @@
     </a>
   </li>
   <li>
-    <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="YatrUNYsGRl6MqaT3k+9VDtGFr+wkTzEvE4Kv4NNlU8Q62UcvpUVzkpdv8UlLRbTlNJkSIM9RAdZj2CFqTf17A==" /></div>
+    <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="Wfr1OPhVc6X22Qp8Rw8sOUrR7YUA7PIg8lP8cwCLUqtz+pC6Uihd4S/YQbVkKblBWBpZn2TqfyCD05UUTAb3fw==" /></div>
       <button class="sign-out-button tooltipped tooltipped-s" aria-label="Sign out">
         <span class="octicon octicon-sign-out"></span>
       </button>
@@ -220,7 +220,7 @@
 <ul class="pagehead-actions">
 
     <li class="subscription">
-      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="J491CPO0HY6WIq88SbTFypo+Fq+6JeI7a1oYqJgN3Ls9XxyqomHpNThGc/h9OXRxVJ2c9PdKrkdSmZfzl0ivbQ==" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="3422923" />
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="io4f0w1Aj9Mwi6ynD9dIac/KHAQztFFpvSeLNIQUdjrdJszqTTCz54BHduWQ3/Y83p5cXMVgwe2X8mZBcT6Fag==" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="3422923" />
 
     <div class="select-menu js-menu-container js-select-menu">
       <a class="social-count js-social-count" href="/coto/gae-boilerplate/watchers">
@@ -296,7 +296,7 @@
 
   <div class="js-toggler-container js-social-container starring-container on">
 
-    <form accept-charset="UTF-8" action="/coto/gae-boilerplate/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="025tsHQHxoik/UY+wrLEp7gs8YLWVDgDAqbR7Hug9+UsOf+haMIeUmTVvBhcPSHVgoXBzrjwDxfPirzJmxTi7g==" /></div>
+    <form accept-charset="UTF-8" action="/coto/gae-boilerplate/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="6vjg1p+yp96jyewILwogrlE+CVW97OFR/+nF7T9JHscOhINhKUR++Ba1nVXNPzVdmwWCHngL5vMZGYglWNU45w==" /></div>
       <button
         class="minibutton with-count js-toggler-target star-button"
         aria-label="Unstar this repository" title="Unstar coto/gae-boilerplate">
@@ -307,7 +307,7 @@
           555
         </a>
 </form>
-    <form accept-charset="UTF-8" action="/coto/gae-boilerplate/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="qSJIV8lDJCp/ZfhmOCiAen2FrnYGR3dzMfrI/G0j2drfxqgSdnNHgErA9rEBguqT82gUNqWHddsLhuZ9ui6MDw==" /></div>
+    <form accept-charset="UTF-8" action="/coto/gae-boilerplate/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="PUupiu20WYYxtsbbpZiqxbeOQ05eguNm0nZ4Bsoaw5XL7cxVCajtoVZIu9kM+qMJnptTojZ6HoYB+DCAX+aQ2g==" /></div>
       <button
         class="minibutton with-count js-toggler-target star-button"
         aria-label="Star this repository" title="Star coto/gae-boilerplate">
@@ -480,9 +480,9 @@
           
 
 
-<a href="/coto/gae-boilerplate/blob/c87812b8539bdd848fbfdce075b307546ec3878e/bp_includes/static/fonts/glyphicons-halflings-regular.woff" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/coto/gae-boilerplate/blob/c87812b8539bdd848fbfdce075b307546ec3878e/bp_includes/static/img/social-login-icons.png" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:beceb070a4e8b9919feac6cb6f718352 -->
+<!-- blob contrib key: blob_contributors:v21:c475312f44242619357c4db52fadb263 -->
 
 <div class="file-navigation">
   
@@ -529,7 +529,7 @@
 
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/coto/gae-boilerplate/blob/gh-pages/bp_includes/static/fonts/glyphicons-halflings-regular.woff"
+              <a href="/coto/gae-boilerplate/blob/gh-pages/bp_includes/static/img/social-login-icons.png"
                  data-name="gh-pages"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -538,7 +538,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item selected">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/coto/gae-boilerplate/blob/master/bp_includes/static/fonts/glyphicons-halflings-regular.woff"
+              <a href="/coto/gae-boilerplate/blob/master/bp_includes/static/img/social-login-icons.png"
                  data-name="master"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -547,7 +547,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/coto/gae-boilerplate/blob/povieira-user_model_consistency/bp_includes/static/fonts/glyphicons-halflings-regular.woff"
+              <a href="/coto/gae-boilerplate/blob/povieira-user_model_consistency/bp_includes/static/img/social-login-icons.png"
                  data-name="povieira-user_model_consistency"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -556,7 +556,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/coto/gae-boilerplate/blob/update-bootstrap/bp_includes/static/fonts/glyphicons-halflings-regular.woff"
+              <a href="/coto/gae-boilerplate/blob/update-bootstrap/bp_includes/static/img/social-login-icons.png"
                  data-name="update-bootstrap"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -565,7 +565,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/coto/gae-boilerplate/blob/with-jquery-mobile/bp_includes/static/fonts/glyphicons-halflings-regular.woff"
+              <a href="/coto/gae-boilerplate/blob/with-jquery-mobile/bp_includes/static/img/social-login-icons.png"
                  data-name="with-jquery-mobile"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -583,7 +583,7 @@
 
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/coto/gae-boilerplate/tree/2.4/bp_includes/static/fonts/glyphicons-halflings-regular.woff"
+              <a href="/coto/gae-boilerplate/tree/2.4/bp_includes/static/img/social-login-icons.png"
                  data-name="2.4"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -592,7 +592,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/coto/gae-boilerplate/tree/2.3/bp_includes/static/fonts/glyphicons-halflings-regular.woff"
+              <a href="/coto/gae-boilerplate/tree/2.3/bp_includes/static/img/social-login-icons.png"
                  data-name="2.3"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -601,7 +601,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/coto/gae-boilerplate/tree/2.2/bp_includes/static/fonts/glyphicons-halflings-regular.woff"
+              <a href="/coto/gae-boilerplate/tree/2.2/bp_includes/static/img/social-login-icons.png"
                  data-name="2.2"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -610,7 +610,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/coto/gae-boilerplate/tree/2.1/bp_includes/static/fonts/glyphicons-halflings-regular.woff"
+              <a href="/coto/gae-boilerplate/tree/2.1/bp_includes/static/img/social-login-icons.png"
                  data-name="2.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -619,7 +619,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/coto/gae-boilerplate/tree/2.0/bp_includes/static/fonts/glyphicons-halflings-regular.woff"
+              <a href="/coto/gae-boilerplate/tree/2.0/bp_includes/static/img/social-login-icons.png"
                  data-name="2.0"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -628,7 +628,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/coto/gae-boilerplate/tree/1.1/bp_includes/static/fonts/glyphicons-halflings-regular.woff"
+              <a href="/coto/gae-boilerplate/tree/1.1/bp_includes/static/img/social-login-icons.png"
                  data-name="1.1"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -637,7 +637,7 @@
             </div> <!-- /.select-menu-item -->
             <div class="select-menu-item js-navigation-item ">
               <span class="select-menu-item-icon octicon octicon-check"></span>
-              <a href="/coto/gae-boilerplate/tree/1.0/bp_includes/static/fonts/glyphicons-halflings-regular.woff"
+              <a href="/coto/gae-boilerplate/tree/1.0/bp_includes/static/img/social-login-icons.png"
                  data-name="1.0"
                  data-skip-pjax="true"
                  rel="nofollow"
@@ -662,7 +662,7 @@
       <span class="octicon octicon-list-unordered"></span>
     </a>
     <button class="js-zeroclipboard minibutton zeroclipboard-button"
-          data-clipboard-text="bp_includes/static/fonts/glyphicons-halflings-regular.woff"
+          data-clipboard-text="bp_includes/static/img/social-login-icons.png"
           aria-label="Copy to clipboard"
           data-copied-hint="Copied!">
       <span class="octicon octicon-clippy"></span>
@@ -670,12 +670,12 @@
   </div>
 
   <div class="breadcrumb">
-    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/coto/gae-boilerplate" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">gae-boilerplate</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/coto/gae-boilerplate/tree/master/bp_includes" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">bp_includes</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/coto/gae-boilerplate/tree/master/bp_includes/static" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">static</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/coto/gae-boilerplate/tree/master/bp_includes/static/fonts" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">fonts</span></a></span><span class="separator"> / </span><strong class="final-path">glyphicons-halflings-regular.woff</strong>
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/coto/gae-boilerplate" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">gae-boilerplate</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/coto/gae-boilerplate/tree/master/bp_includes" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">bp_includes</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/coto/gae-boilerplate/tree/master/bp_includes/static" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">static</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/coto/gae-boilerplate/tree/master/bp_includes/static/img" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">img</span></a></span><span class="separator"> / </span><strong class="final-path">social-login-icons.png</strong>
   </div>
 </div>
 
 
-  <div class="commit commit-loader file-history-tease js-deferred-content" data-url="/coto/gae-boilerplate/contributors/master/bp_includes/static/fonts/glyphicons-halflings-regular.woff">
+  <div class="commit commit-loader file-history-tease js-deferred-content" data-url="/coto/gae-boilerplate/contributors/master/bp_includes/static/img/social-login-icons.png">
     Fetching contributors…
 
     <div class="participation">
@@ -688,22 +688,22 @@
   <div class="file">
     <div class="meta clearfix">
       <div class="info file-name">
-        <span>23.32 kb</span>
+        <span>7.693 kb</span>
       </div>
       <div class="actions">
         <div class="button-group">
-          <a href="/coto/gae-boilerplate/raw/master/bp_includes/static/fonts/glyphicons-halflings-regular.woff" class="minibutton " id="raw-url">Raw</a>
-          <a href="/coto/gae-boilerplate/commits/master/bp_includes/static/fonts/glyphicons-halflings-regular.woff" class="minibutton " rel="nofollow">History</a>
+          <a href="/coto/gae-boilerplate/raw/master/bp_includes/static/img/social-login-icons.png" class="minibutton " id="raw-url">Raw</a>
+          <a href="/coto/gae-boilerplate/commits/master/bp_includes/static/img/social-login-icons.png" class="minibutton " rel="nofollow">History</a>
         </div><!-- /.button-group -->
 
           <a class="octicon-button tooltipped tooltipped-nw"
-             href="github-windows://openRepo/https://github.com/coto/gae-boilerplate?branch=master&amp;filepath=bp_includes%2Fstatic%2Ffonts%2Fglyphicons-halflings-regular.woff" aria-label="Open this file in GitHub for Windows">
+             href="github-windows://openRepo/https://github.com/coto/gae-boilerplate?branch=master&amp;filepath=bp_includes%2Fstatic%2Fimg%2Fsocial-login-icons.png" aria-label="Open this file in GitHub for Windows">
               <span class="octicon octicon-device-desktop"></span>
           </a>
 
 
             <a class="octicon-button danger tooltipped tooltipped-s"
-               href="/coto/gae-boilerplate/delete/master/bp_includes/static/fonts/glyphicons-halflings-regular.woff"
+               href="/coto/gae-boilerplate/delete/master/bp_includes/static/img/social-login-icons.png"
                aria-label="Fork this project and delete file"
                data-method="post" data-test-id="delete-blob-file" rel="nofollow">
           <span class="octicon octicon-trashcan"></span>
@@ -713,7 +713,7 @@
       
   <div class="blob-wrapper data type-text">
       <div class="image">
-          <a href="/coto/gae-boilerplate/blob/master/bp_includes/static/fonts/glyphicons-halflings-regular.woff?raw=true">View Raw</a>
+          <span class="border-wrap"><img src="https://raw.githubusercontent.com/coto/gae-boilerplate/master/bp_includes/static/img/social-login-icons.png" alt="social-login-icons.png"></span>
       </div>
   </div>
 
@@ -755,7 +755,7 @@
     </a>
 
     <ul class="site-footer-links">
-      <li>&copy; 2014 <span title="0.04841s from github-fe116-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2014 <span title="0.06266s from github-fe139-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="/site/terms">Terms</a></li>
         <li><a href="/site/privacy">Privacy</a></li>
         <li><a href="/security">Security</a></li>

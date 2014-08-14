@@ -4,7 +4,6 @@ from bp_includes.lib import utils
 from webapp2_extras.i18n import lazy_gettext as _
 #from webapp2_extras.i18n import ngettext, gettext
 from bp_includes.forms import BaseForm
-import forms
 
 FIELD_MAXLENGTH = 100 # intended to stop maliciously long input
 

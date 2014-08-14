@@ -33,20 +33,25 @@
   <div class="col-md-9 column">
     <div class="jumbotron">
       <p>
-	<span>What is RouteEdu?</span>
+	<span>What is RouteEdu really?</span>
+      </p> 
+      <p>
+        Steering you in the direction of quality content anywhere it's
+        available is our goal.  Let us know what you learn and we can recommend it for others with the same experience.  
+
       </p>
       <p>
-	It's your path through education leading you to your educational goals. You don't have to do it alone. You can ask for help from advisers, friends and coaches.
+        How do we do that?   We are constantly making it easier for
+        teachers to see the impact of their classes.  We turn blank
+        stares and downcast eyes into actionable data showing you
+        where the student lost you.
+
       </p>
-      
-      <p>
-	For Teachers: It's the opportunity to put string single concepts together to create courses. From day one you could be running A/B tests to find out what curriculum works better and an opportunity to show the world the difference you make.
-      </p>
-      
-      <p>
-	<a class="btn btn-primary btn-large" href="{{ uri_for("more") }}">Learn more</a>
-      </p>
-    </div>
+
+      </div>
+    FAQ: Do you collect my data?  Oh yes.  How do you think we make
+    things better?  What data you might ask.  
+
   </div>
   <div class="col-md-3 auth-at-home">
     <form id="form_login_user" action="{{ uri_for("login") }}" method="post">

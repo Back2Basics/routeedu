@@ -26,6 +26,15 @@ class IntroHandler(BaseHandler):
     def form(self):
         return forms.REDU_Search
         #return forms.REDU_Search(self)
+class MoreHandler(BaseHandler):
+    """ FYI and FAQ page """ 
+
+    def get(self):
+        return self.render_template('redu_more.html')
+
+    def form(self):
+        return forms.REDU_Search
+        #return forms.REDU_Search(self)
 
 class GoalSearchHandler(BaseHandler):
     def get(self):
